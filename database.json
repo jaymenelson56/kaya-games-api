@@ -1,0 +1,71 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Kaya",
+      "email": "kayaghost@petlink.com",
+      "bio": "Just happy to have lived my best life"
+    },
+    {
+      "name": "Jayme",
+      "email": "jaymem-h@jayme.com",
+      "bio": "My second attempt at making a profile.",
+      "id": 2
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Overcooked",
+      "body": "It's good for real.",
+      "reactionId": "4"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "title": "I'm throwing this game away",
+      "body": "Get it out of my house.",
+      "reactionId": 2
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "title": "I can't with this game",
+      "body": "Don't get it.",
+      "reactionId": 1
+    }
+  ],
+  "reactions": [
+    {
+      "id": 1,
+      "image": "/images/neutral.jpg",
+      "alt": "Kaya's Neutral Face",
+      "description": "Neutral"
+    },
+    {
+      "id": 2,
+      "image": "/images/angry.jpg",
+      "alt": "Kaya's Angry Face",
+      "description": "Anger"
+    },
+    {
+      "id": 3,
+      "image": "/images/sad.jpg",
+      "alt": "Kaya's Sad Face",
+      "description": "Sadness"
+    },
+    {
+      "id": 4,
+      "image": "/images/happy.jpg",
+      "alt": "Kaya's Happy Face",
+      "description": "Happiness"
+    },
+    {
+      "id": 5,
+      "image": "/images/excited.jpg",
+      "alt": "Kaya's Excited Face",
+      "description": "Excitement"
+    }
+  ]
+}
