@@ -1,71 +1,175 @@
 {
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Kaya",
       "email": "kayaghost@petlink.com",
       "bio": "Just happy to have lived my best life"
     },
     {
+      "id": "2",
       "name": "Jayme",
       "email": "jaymem-h@jayme.com",
-      "bio": "My second attempt at making a profile.",
-      "id": 2
+      "bio": "My second attempt at making a profile."
+    },
+    {
+      "id": "3",
+      "name": "Dave",
+      "email": "Dave@dave.com",
+      "bio": "Don't wear it out."
     }
   ],
   "reviews": [
     {
-      "id": 1,
-      "userId": 1,
+      "id": "1",
+      "userId": "1",
       "title": "Overcooked",
-      "body": "It's good for real.",
-      "reactionId": "4"
+      "body": "When I first got my paws on this game I wanted to eat the food, made in this game. I could not, it was frustrating, however I moved forward and found that this game was really fun with my friends, the chaotic nature of fumbling to tripping over each other in the kitchen mimicks that way my humans trip over me, I give this game a 4 out of 10 maybe next time I can eat the food.",
+      "reactionId": "8"
     },
     {
-      "id": 2,
-      "userId": 1,
-      "title": "I'm throwing this game away",
-      "body": "Get it out of my house.",
-      "reactionId": 2
+      "id": "3",
+      "userId": "1",
+      "title": "Portal",
+      "body": "I love Portal, I was only disappointed at the lack of cake in the main campaign.",
+      "reactionId": "5"
     },
     {
-      "id": 4,
-      "userId": 2,
-      "title": "I can't with this game",
-      "body": "Don't get it.",
-      "reactionId": 1
+      "id": "4",
+      "userId": "1",
+      "title": "Coffee Talk",
+      "body": "There are no snacks in the game. Fail.",
+      "reactionId": "7"
+    },
+    {
+      "id": "5",
+      "userId": "1",
+      "title": "Dark Souls",
+      "body": "I couldn't get the game out of the box.",
+      "reactionId": "1"
+    },
+    {
+      "id": "6",
+      "userId": "1",
+      "title": "Crash Bandicoot",
+      "body": "I've never seen this animal. I wonder what it tastes like. Looks delicious.",
+      "reactionId": "7"
+    },
+    {
+      "id": "7",
+      "userId": "1",
+      "title": "tt",
+      "body": "tt",
+      "reactionId": "5"
+    },
+    {
+      "id": "4313",
+      "userId": "2",
+      "title": "Astro's Playroom",
+      "body": "I really like this game.",
+      "reactionId": "8"
+    },
+    {
+      "id": "d7db",
+      "userId": "2",
+      "title": "New Game",
+      "body": "Here",
+      "reactionId": "5"
+    },
+    {
+      "id": "7dc4",
+      "userId": "2",
+      "title": "Brand New Game",
+      "body": "This Game.",
+      "reactionId": "5"
     }
   ],
   "reactions": [
     {
-      "id": 1,
+      "id": "1",
       "image": "/images/neutral.jpg",
       "alt": "Kaya's Neutral Face",
       "description": "Neutral"
     },
     {
-      "id": 2,
+      "id": "2",
       "image": "/images/angry.jpg",
       "alt": "Kaya's Angry Face",
       "description": "Anger"
     },
     {
-      "id": 3,
+      "id": "3",
       "image": "/images/sad.jpg",
       "alt": "Kaya's Sad Face",
       "description": "Sadness"
     },
     {
-      "id": 4,
+      "id": "4",
       "image": "/images/happy.jpg",
       "alt": "Kaya's Happy Face",
       "description": "Happiness"
     },
     {
-      "id": 5,
+      "id": "5",
       "image": "/images/excited.jpg",
       "alt": "Kaya's Excited Face",
       "description": "Excitement"
+    },
+    {
+      "id": "6",
+      "image": "/images/gimme.jpg",
+      "alt": "Kaya's face is that of a dog that wants a toy",
+      "description": "Want the toy"
+    },
+    {
+      "id": "7",
+      "image": "/images/iwantthatduck.jpg",
+      "alt": "Kaya angry at an offscreen duck",
+      "description": "Duck Hunter"
+    },
+    {
+      "id": "8",
+      "image": "/images/meandmypal.jpg",
+      "alt": "Kaya and Fox resting together",
+      "description": "Me and my pal"
+    },
+    {
+      "id": "9",
+      "image": "/images/whatisthat.jpg",
+      "alt": "Kaya ears are up",
+      "description": "What is that?"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "userId": "1",
+      "reviewId": "1",
+      "body": "I deserve a treat."
+    },
+    {
+      "id": "2",
+      "userId": "1",
+      "reviewId": "3",
+      "body": "Cake is a lie! Unless you beat the game."
+    },
+    {
+      "id": "3",
+      "userId": "3",
+      "reviewId": "3",
+      "body": "First"
+    },
+    {
+      "id": "4",
+      "userId": "1",
+      "reviewId": "1",
+      "body": "f"
+    },
+    {
+      "id": "30c5",
+      "userId": "2",
+      "reviewId": "1",
+      "body": "Good girl Kaya!"
     }
   ]
 }
